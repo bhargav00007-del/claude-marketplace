@@ -1,34 +1,16 @@
 {
   "plugins": [
     {
-      "name": "Awesome FreeLLM APIs",
-      "repository": "https://github.com/open-free-llm-api/awesome-freellm-apis",
-      "manifest": ".claude-plugin/manifest.json",
-      "description": "Collection/list (may not be a plugin repository)."
-    },
-    {
       "name": "Claude-Mem",
       "repository": "https://github.com/thedotmack/claude-mem",
-      "manifest": ".claude-plugin/manifest.json",
-      "description": "Memory plugin for Claude."
+      "manifest": ".claude-plugin/plugin.json",
+      "description": "Memory plugin for Claude. (uses .claude-plugin/plugin.json)"
     },
     {
-      "name": "Agent-Reach",
-      "repository": "https://github.com/Panniantong/Agent-Reach",
-      "manifest": ".claude-plugin/manifest.json",
-      "description": ""
-    },
-    {
-      "name": "Claude Plugins Official",
+      "name": "Claude Plugins Official (Anthropic)",
       "repository": "https://github.com/anthropics/claude-plugins-official",
-      "manifest": ".claude-plugin/manifest.json",
-      "description": "Anthropic official plugins (may itself be a marketplace)."
-    },
-    {
-      "name": "Strix",
-      "repository": "https://github.com/usestrix/strix",
-      "manifest": ".claude-plugin/manifest.json",
-      "description": ""
+      "manifest": ".claude-plugin/marketplace.json",
+      "description": "Anthropic's official marketplace listing many installable plugins."
     }
   ]
 }

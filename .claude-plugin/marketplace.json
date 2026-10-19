@@ -1,16 +1,40 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "selected-claude-plugins",
+  "description": "Marketplace manifest containing five user-selected plugins for Claude.",
+  "owner": {
+    "name": "bhargav00007-del"
+  },
   "plugins": [
     {
-      "name": "Claude-Mem",
-      "repository": "https://github.com/thedotmack/claude-mem",
+      "name": "awesome-freellm-apis",
+      "repository": "https://github.com/open-free-llm-api/awesome-freellm-apis",
       "manifest": ".claude-plugin/plugin.json",
-      "description": "Memory plugin for Claude. (uses .claude-plugin/plugin.json)"
+      "description": "Directory of free/open LLM APIs"
     },
     {
-      "name": "Claude Plugins Official (Anthropic)",
+      "name": "claude-mem",
+      "repository": "https://github.com/thedotmack/claude-mem",
+      "manifest": ".claude-plugin/plugin.json",
+      "description": "Memory plugin for Claude"
+    },
+    {
+      "name": "Agent-Reach",
+      "repository": "https://github.com/Panniantong/Agent-Reach",
+      "manifest": ".claude-plugin/plugin.json",
+      "description": "Agent-Reach: agent orchestration and reach tools"
+    },
+    {
+      "name": "claude-plugins-official",
       "repository": "https://github.com/anthropics/claude-plugins-official",
       "manifest": ".claude-plugin/marketplace.json",
-      "description": "Anthropic's official marketplace listing many installable plugins."
+      "description": "Anthropic's official marketplace (collection of verified plugins)"
+    },
+    {
+      "name": "strix",
+      "repository": "https://github.com/usestrix/strix",
+      "manifest": ".claude-plugin/plugin.json",
+      "description": "Strix: agent/skill framework"
     }
   ]
 }
